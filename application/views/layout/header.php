@@ -20,8 +20,6 @@
                 <li><a href="#">Community</a></li>
                 <li><a href="#">Special Deals</a></li>
                 <li><a href="#">About US</a></li>
-                <li><a href="#" id="loginBtn">login</a></li>
-                <li><a href="#" id="signupBtn">Register</a></li>
             </ul>
             <i class="bi bi-three-dots"></i>
         </nav>
