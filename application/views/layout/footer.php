@@ -58,10 +58,6 @@
     .login_signup_ss .signupBx { display: flex; }
 </style>
 
-<!-- Trigger Buttons -->
-<button id="loginBtn">Open Login</button>
-<button id="signupBtn">Open SignUp</button>
-
 <!-- Login And SignUp -->
 <div class="login_signup">
     <div class="signupBx">
@@ -122,7 +118,7 @@
 
         const result = await response.json();
 
-        alert(data.message);
+        alert(result.message);
 
         window.location.reload();
 
@@ -150,7 +146,7 @@
 
         const result = await response.json();
 
-        alert(data.message);
+        alert(result.message);
 
         window.location.reload();
 

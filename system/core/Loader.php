@@ -62,6 +62,7 @@ class CI_Loader {
 	public $security;
 	public $input;
 	public $lang;
+	public $db;
 
 	// All these are set automatically. Don't mess with them.
 	/**
