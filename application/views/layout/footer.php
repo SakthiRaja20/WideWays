@@ -68,8 +68,9 @@
         <h2>Register</h2>
         <form id="signupForm">
             <input type="text" id="signup_name" placeholder="Username" required autocomplete="username">
-            <input type="number" id="signup_mobile_no" placeholder="Mobile Number" required autocomplete="username">
+            <input type="number" id="signup_mobile" placeholder="Mobile Number" required autocomplete="username">
             <input type="password" id="signup_password" placeholder="Create Password" required autocomplete="new-password">
+            <button type="submit">SignUp</button>
             <p>Already have an account? <a href="#" id="login">Login</a></p>
         </form>
     </div>
@@ -103,8 +104,8 @@
 <script>
     let base_url = "<?php echo base_url('user'); ?>"; // fixed PHP syntax
 
-    // Signup
-    document.getElementById('signup').addEventListener('click', async(e) => {
+    // Login
+    document.getElementById('login').addEventListener('click', async(e) => {
         e.preventDefault();
 
         let form = new FormData();
@@ -113,7 +114,7 @@
     
 
         try {
-           const response = await fetch(base_url + 'signup' , {
+           const response = await fetch(base_url + 'login' , {
                 method: "POST",
                 body: form
            }
@@ -130,18 +131,18 @@
         }
     });
 
-    // Login
-    document.getElementById('L').addEventListener('click', async(e) => {
+    // Signup
+    document.getElementById('signup').addEventListener('click', async(e) => {
         e.preventDefault();
 
         let form = new FormData();
         form.append('name', document.getElementById('signup_name').value);
-        form.append('mobile_no', document.getElementById('signup_mobile_no').value);
+        form.append('mobile_no', document.getElementById('signup_mobile').value);
         form.append('password', document.getElementById('signup_password').value);
        
 
         try {
-           const response = await fetch(base_url + 'login' , {
+           const response = await fetch(base_url + 'signup' , {
                 method: "POST",
                 body: form
            }
