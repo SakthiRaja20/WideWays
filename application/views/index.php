@@ -29,8 +29,8 @@
           <h4>Countries to travel</h4>
           <div class="cards">
             <div class="card">
-              <h3>INDIA <img src="icon/india.png" alt=""></h3>
-              <img src="img/Mumbai-india-at-night.jpg" alt="">
+              <h3>INDIA <img src="assets/icon/india.png" alt=""></h3>
+              <img src="assets/img/Mumbai-india-at-night.jpg" alt="">
               <div class="btn_city">
                 <a href="">Read Now</a>
                 <h5>Mumbai Central <br><span>₹20000</span></h5>
@@ -38,8 +38,8 @@
             </div>
 
             <div class="card">
-              <h3>UNITED STATE <img src="icon/united-states.png" alt=""></h3>
-              <img src="img/NewYork.jpeg" alt="">
+              <h3>UNITED STATE <img src="assets/icon/united-states.png" alt=""></h3>
+              <img src="assets/img/NewYork.jpeg" alt="">
               <div class="btn_city">
                 <a href="">Read Now</a>
                 <h5>NewYork<br><span>₹65000</span></h5>
@@ -47,8 +47,8 @@
             </div>
 
             <div class="card">
-              <h3>RUSSIA <img src="icon/russia.png" alt=""></h3>
-              <img src="img/Saintpeterburg.jpeg" alt="">
+              <h3>RUSSIA <img src="assets/icon/russia.png" alt=""></h3>
+              <img src="assets/img/Saintpeterburg.jpeg" alt="">
               <div class="btn_city">
                 <a href="">Read Now</a>
                 <h5>Saint Petersburg<br><span>₹80000</span></h5>
@@ -56,8 +56,8 @@
             </div>
 
             <div class="card">
-              <h3>SPAIN <img src="icon/spain.png" alt=""></h3>
-              <img src="img/barcilona.jpeg" alt="">
+              <h3>SPAIN <img src="assets/icon/spain.png" alt=""></h3>
+              <img src="assets/img/barcilona.jpeg" alt="">
               <div class="btn_city">
                 <a href="">Read Now</a>
                 <h5>Barcelona<br><span>₹85000</span></h5>
@@ -77,7 +77,7 @@
       <div class="card">
         <h3>Lotus-Delhi</h3>
         <div class="img_text">
-          <img src="img/lotus-temple.jpeg" alt="">
+          <img src="assets/img/lotus-temple.jpeg" alt="">
           <h4>Included: flight ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
         </div>
         <div class="cont_bx">
@@ -98,7 +98,7 @@
       <div class="card">
         <h3>Burj Khalifa -Dubai</h3>
         <div class="img_text">
-          <img src="img/burj-khalifa.jpeg" alt="">
+          <img src="assets/img/burj-khalifa.jpeg" alt="">
           <h4>Included: flight ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
         </div>
         <div class="cont_bx">
@@ -119,7 +119,7 @@
       <div class="card">
         <h3>Pyramids-Egypt</h3>
         <div class="img_text">
-          <img src="img/pyramid.jpeg" alt="">
+          <img src="assets/img/pyramid.jpeg" alt="">
           <h4>Included: flight ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
         </div>
         <div class="cont_bx">
@@ -140,7 +140,7 @@
       <div class="card">
         <h3>Ha Long Bay-Vietnam</h3>
         <div class="img_text">
-          <img src="img/ha long bay.jpeg" alt="">
+          <img src="assets/img/ha long bay.jpeg" alt="">
           <h4>Included: flight ticket, Hotel, Breakfast, Tours, Airport Transfer</h4>
         </div>
         <div class="cont_bx">
@@ -173,9 +173,9 @@
             <button>MORE INFO</button>
         </div>
         <div class="img_bx">
-            <img src="img/des-image.jpeg" alt="">
+            <img src="assets/img/des-image.jpeg" alt="">
             <div class="msg">
-                <img src="icon/round_india_flag.png" alt="">
+                <img src="assets/icon/round_india_flag.png" alt="">
                 <div class="cont">
                     <h4>India</h4>
                     <div class="icon">
@@ -185,7 +185,7 @@
                 </div>
             </div>
             <div class="msg">
-                <img src="icon/united-states.png" alt="">
+                <img src="assets/icon/united-states.png" alt="">
                 <div class="cont">
                     <h4>United State</h4>
                     <div class="icon">
