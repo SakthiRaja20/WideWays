@@ -1,30 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="<?= base_url('style.css'); ?>">
-    <link rel="stylesheet" href="<?= base_url('media.css'); ?>">
-    <title>Wide Wide</title>
-</head>
-
-<body>
-    <header>
-        <nav>
-            <h4>Wide Wide </h4>
-            <ul id="menu_bx">
-                <li><a href="#">Discover</a></li>
-                <li><a href="#">Community</a></li>
-                <li><a href="#">Special Deals</a></li>
-                <li><a href="#">About US</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
-            <i class="bi bi-three-dots"></i>
-        </nav>
-        <div class="content">
+<!-- Header -->
+<?php $this->load->view('layout/header'); ?>
+<!-- Main Content -->
+    <div class="content">
       <div class="cont_bx">
         <h1>The right destination for you and your family</h1>
         <p>Creative taglines have the capability of capturing the attention of potential customer.</p>
@@ -52,7 +29,7 @@
           <h4>Countries to travel</h4>
           <div class="cards">
             <div class="card">
-              <h3>INDIA <img src="img/india-flag.jpg" alt=""></h3>
+              <h3>INDIA <img src="icon/india.png" alt=""></h3>
               <img src="img/Mumbai-india-at-night.jpg" alt="">
               <div class="btn_city">
                 <a href="">Read Now</a>
@@ -61,7 +38,7 @@
             </div>
 
             <div class="card">
-              <h3>UNITED STATE <img src="img/united-state.png" alt=""></h3>
+              <h3>UNITED STATE <img src="icon/united-states.png" alt=""></h3>
               <img src="img/NewYork.jpeg" alt="">
               <div class="btn_city">
                 <a href="">Read Now</a>
@@ -79,7 +56,7 @@
             </div>
 
             <div class="card">
-              <h3>SPAIN <img src="icon/Flag_of_Spain.webp" alt=""></h3>
+              <h3>SPAIN <img src="icon/spain.png" alt=""></h3>
               <img src="img/barcilona.jpeg" alt="">
               <div class="btn_city">
                 <a href="">Read Now</a>
@@ -220,22 +197,5 @@
         </div>
     </div>
 
-    <footer>
-        <h2>Subscribe & <br> get special discount</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt neque animi .</p>
-        <div class="input">
-            <input type="text" placeholder="Enter your Email Address">
-            <button>Subscribe</button>
-        </div>
-        <ul>
-            <li>7823 <br> <h6>Years Serving the travel Industry</h6></li>
-            <li>6374 <br><h6>Global <br> Partner</h6> </li>
-            <li>1496 <br> <h6>Industry Awards since 2022</h6></li>
-            <li>5658 <br> <h6>Subscribe</h6></li>
-        </ul>
-    </footer>
-    <script src="app.js"></script>
-    
-</body>
-
-</html>
+<!-- Footer -->
+<?php $this->load->view('layout/footer'); ?>
